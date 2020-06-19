@@ -13,7 +13,7 @@ export class MS19062020Service {
     return this.http.get(this.url + '/api/forum/posts');
   }
 
-  getById(id: any){
+  getById(id: any): any{
     return this.http.get(this.url + '/api/forum/posts/' + id);
   }
 }

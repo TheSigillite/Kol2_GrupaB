@@ -9,6 +9,7 @@ import { MSForumItemComponent } from './ms-forum-item/ms-forum-item.component';
 import { MSForumDetailsComponent } from './ms-forum-details/ms-forum-details.component';
 import {FormsModule} from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule
   ],
   providers: [MS19062020Service],
   bootstrap: [AppComponent]
