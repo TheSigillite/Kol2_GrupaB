@@ -28,7 +28,6 @@ export class MSForumDetailsComponent implements OnInit {
         this.image = response.image;
         this.text = response.text;
         this.title = response.title;
-        console.log(this.$post);
       });
     } else {
       this.id = 1;

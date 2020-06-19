@@ -18,7 +18,6 @@ export class MSForumComponent implements OnInit {
   getAll(){
     this.service.getAll().subscribe(response =>{
       this.$items = response;
-      console.log(this.$items);
     });
   }
 
